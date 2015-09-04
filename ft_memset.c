@@ -8,6 +8,6 @@ void	ft_memset(void *ptr, int value, size_t num)
 	while (++i < num)
 	{
 		*(unsigned char *)ptr = v;
-		ptr++;
+		(unsigned char *)(ptr)++;
 	}
 }
