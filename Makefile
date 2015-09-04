@@ -1,7 +1,7 @@
 CC		=	gcc
 FLAGS	=	-c -Wall -Werror -Wextra
-SRC		=	ft_putchar.c
-OBJ		=	ft_putchar.o
+SRC		=	*.c
+OBJ		=	*.o
 NAME	=	libft.a
 
 all	:
