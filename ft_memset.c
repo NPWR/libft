@@ -1,4 +1,4 @@
-void	ft_memset(void *ptr, int value, size_t num)
+void	*ft_memset(void *ptr, int value, size_t num)
 {
 	unsigned char	v;
 	int				i;
@@ -6,8 +6,6 @@ void	ft_memset(void *ptr, int value, size_t num)
 	i = -1;
 	v = (unsigned char)value;
 	while (++i < num)
-	{
-		*(unsigned char *)ptr = v;
-		(unsigned char *)(ptr)++;
-	}
+		(unsigned char *)(ptr)[i] = v;
+	return (ptr);
 }
