@@ -4,7 +4,7 @@ ft_bzero		X	X
 ft_memcpy		X	X	
 ft_memccpy		X	X	
 ft_memmove		X	X	
-ft_memchr
+ft_memchr		X
 ft_memcmp
 ft_strlen
 ft_strdup
