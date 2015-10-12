@@ -1,0 +1,27 @@
+NAME			DONE	TEST	RESTEST	P2PTESTED
+ft_memset		X	X	
+ft_bzero		X	X	
+ft_memcpy		X	X	
+ft_memccpy		X	X	
+ft_memmove		X	X	
+ft_memchr
+ft_memcmp
+ft_strlen
+ft_strdup
+ft_strcpy
+ft_strncpy
+ft_strcat
+ft_strncat
+ft_strlcat
+ft_strchr
+ft_strstr
+ft_strnstr
+ft_strcmp
+ft_atoi
+ft_isalpha
+ft_isdigit
+ft_isalnum
+ft_ascii
+ft_isprint
+ft_toupper
+ft_tolower

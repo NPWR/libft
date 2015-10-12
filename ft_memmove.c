@@ -1,5 +1,3 @@
-#include "libft.h"
-
 void	*ft_memmove(void *dst, void *src, size_t n)
 {
 	unsigned int	i;
