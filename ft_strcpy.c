@@ -1,4 +1,4 @@
-char	*ft_strcpy(char *src, char *dst)
+char	*ft_strcpy(char *dst, const char *src)
 {
 	unsigned int	i;
 

@@ -1,6 +1,6 @@
 #include <string.h>
 
-char	*ft_strncpy(char *src, char *dst, size_t n)
+char	*ft_strncpy(char *dst, const char *src, size_t n)
 {
 	unsigned int	i;
 
