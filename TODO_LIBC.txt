@@ -12,7 +12,7 @@ ft_strcpy		X
 ft_strncpy		X
 ft_strcat		X
 ft_strncat		X
-ft_strlcat
+ft_strlcat		X	X
 ft_strchr
 ft_strstr		X	X		X
 ft_strnstr		X	X
