@@ -6,8 +6,8 @@ ft_memccpy		X	X
 ft_memmove		X	X	
 ft_memchr		X
 ft_memcmp
-ft_strlen
-ft_strdup
+ft_strlen		X
+ft_strdup		X
 ft_strcpy
 ft_strncpy
 ft_strcat
