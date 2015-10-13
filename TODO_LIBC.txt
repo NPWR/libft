@@ -10,8 +10,8 @@ ft_strlen		X
 ft_strdup		X
 ft_strcpy		X
 ft_strncpy		X
-ft_strcat
-ft_strncat
+ft_strcat		X
+ft_strncat		X
 ft_strlcat
 ft_strchr
 ft_strstr		X	X		X
