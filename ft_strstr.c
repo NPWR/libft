@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-static int	str_is_equal(char *s1, char *s2)
+static int	str_is_equal(const char *s1, const char *s2)
 {
 	while (*s1 && *s2 && *s1 == *s2)
 	{
@@ -12,14 +12,14 @@ static int	str_is_equal(char *s1, char *s2)
 	return (0);
 }
 
-char		*ft_strstr(char *src, char *to_find)
+char		*ft_strstr(const char *src, const char *to_find)
 {
 	if (!*to_find)
-		return (src);
+		return ((char *)src);
 	while (*src)
 	{
 		if (str_is_equal(src, to_find))
-			return (src);
+			return ((char *)src);
 		src++;
 	}
 	return (NULL);

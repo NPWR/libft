@@ -15,7 +15,7 @@ ft_strncat
 ft_strlcat
 ft_strchr
 ft_strstr		X	X		X
-ft_strnstr
+ft_strnstr		X	X
 ft_strcmp
 ft_atoi
 ft_isalpha
