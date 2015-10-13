@@ -5,6 +5,8 @@ void	*ft_memccpy(void *dst, void *src, int c, size_t n)
 	unsigned int	i;
 
 	i = 0;
+	if (dst == NULL || src == NULL)
+		return (NULL);
 	while (i < n)
 	{
 		((unsigned char *)(dst))[i] = ((unsigned char *)(src))[i];
