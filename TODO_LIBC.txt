@@ -23,5 +23,5 @@ ft_isdigit		X	X
 ft_isalnum		X	X
 ft_ascii		X	X
 ft_isprint		X	X
-ft_toupper
-ft_tolower
+ft_toupper		X
+ft_tolower		X
