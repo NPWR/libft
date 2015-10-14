@@ -18,10 +18,10 @@ ft_strstr		X	X		X
 ft_strnstr		X	X
 ft_strcmp		X	X
 ft_atoi			X	X
-ft_isalpha		X
-ft_isdigit		X
-ft_isalnum		X
-ft_ascii		X
-ft_isprint		X
+ft_isalpha		X	X
+ft_isdigit		X	X
+ft_isalnum		X	X
+ft_ascii		X	X
+ft_isprint		X	X
 ft_toupper
 ft_tolower
