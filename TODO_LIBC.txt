@@ -18,6 +18,7 @@ ft_strrchr		X
 ft_strstr		X	X		X
 ft_strnstr		X	X
 ft_strcmp		X	X
+ft_strncmp		X
 ft_atoi			X	X
 ft_isalpha		X	X
 ft_isdigit		X	X
