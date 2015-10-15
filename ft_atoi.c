@@ -5,6 +5,8 @@ int	ft_atoi(const char *s)
 
 	total = 0;
 	factor = 1;
+	while (*s == '\t' || *s == ' ' || *s == '\n')
+		s++;
 	if (*s == '-')
 	{
 		factor = -1;
@@ -16,5 +18,5 @@ int	ft_atoi(const char *s)
 		total += factor * (*s - '0');
 		s++;
 	}
-	return ((int)total);
+	return (total);
 }
