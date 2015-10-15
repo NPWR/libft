@@ -27,3 +27,4 @@ ft_ascii		X	X
 ft_isprint		X	X
 ft_toupper		X
 ft_tolower		X
+MAKEFILE		X	X	X
