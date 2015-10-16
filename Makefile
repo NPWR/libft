@@ -30,7 +30,8 @@ SRC =  ft_memset.c\
        ft_toupper.c\
        ft_tolower.c\
        ft_putchar.c\
-       ft_putstr.c
+       ft_putstr.c\
+       ft_putnstr.c
 
 OBJ = $(SRC:.c=.o)
 
