@@ -1,0 +1,25 @@
+NAME									DONE	TEST	RETEST	P2PTEST
+void *ft_memalloc(size_t size);
+void ft_memdel(void **ap);
+char *ft_strnew(size_t size);
+void ft_strdel(char **as);
+void ft_strclr(char *s);
+void ft_striter(char *s, void (*f)(char *));
+void ft_striteri(char *s, void (*f)(unsigned int, char *));
+char *ft_strmap(const char *s, char (*f)(char));
+char *ft_strmapi(har const *s, char (*f)(unsigned int, char));
+int ft_streq(const char *s1, const char *s2);
+int ft_strneq(const char *s1, const char *s2, size_t n);
+char *ft_strsub(const char *s, unsigned int i, size_t len);
+char *ft_strjoin(const char *s1, const char *s2);
+char *ft_strtrim(const char *s);
+char **ft_strsplit(const char *s, char c);
+char *ft_itoa(int n);
+void ft_putchar(char c);						X	X	X
+void ft_putstr(const char *s);						X	X	X	X
+void ft_putendl(const char *s);
+void ft_putnbr(int n);
+void t_putchar_fd(char c; int fd);
+void ft_putstr_fd(const char *s, int fd);
+void ft_putendl_fd(const char *s, int fd);
+void ft_putnbr_fd(int n, int fd);
