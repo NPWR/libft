@@ -6,8 +6,8 @@ int	ft_atoi(const char *s)
 	total = 0;
 	while (*s == '\t' || *s == ' ' || *s == '\n')
 		s++;
-	s += *s == '+' ? 0 : 1;
 	factor = *s == '-' ? -1 : 1;
+	s += *s == '+' || *s == '-' ? 1 : 0;
 	while (*s >= '0' && *s <= '9')
 	{
 		total *= 10;
