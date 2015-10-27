@@ -4,7 +4,8 @@ int	ft_atoi(const char *s)
 	int	factor;
 
 	total = 0;
-	while (*s == '\t' || *s == ' ' || *s == '\n')
+	while (*s == '\t' || *s == ' ' || *s == '\n'
+		|| *s == '\r' || *s == '\v' || *s == '\f')
 		s++;
 	factor = *s == '-' ? -1 : 1;
 	s += *s == '+' || *s == '-' ? 1 : 0;
