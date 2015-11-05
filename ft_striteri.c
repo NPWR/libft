@@ -1,4 +1,4 @@
-void	ft_striteri(char *s, void (*f)(unsigned int i, char*))
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	char	*ptr;
 
