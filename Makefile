@@ -9,6 +9,7 @@ SRC =  ft_memset.c\
        ft_memchr.c\
        ft_memcmp.c\
        ft_memalloc.c\
+       ft_memdel.c\
        ft_strlen.c\
        ft_strdup.c\
        ft_strcpy.c\
