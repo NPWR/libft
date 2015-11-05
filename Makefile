@@ -8,6 +8,7 @@ SRC =  ft_memset.c\
        ft_memmove.c\
        ft_memchr.c\
        ft_memcmp.c\
+       ft_memalloc.c\
        ft_strlen.c\
        ft_strdup.c\
        ft_strcpy.c\
@@ -31,7 +32,13 @@ SRC =  ft_memset.c\
        ft_tolower.c\
        ft_putchar.c\
        ft_putstr.c\
-       ft_putnstr.c
+       ft_putnstr.c\
+       ft_putchar_fd.c\
+       ft_putstr_fd.c\
+       ft_putnbr.c\
+       ft_putnbr_fd.c\
+       ft_putendl.c\
+       ft_putendl_fd.c\
 
 OBJ = $(SRC:.c=.o)
 
