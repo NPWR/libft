@@ -6,7 +6,7 @@ void ft_strdel(char **as);						X
 void ft_strclr(char *s);						X
 void ft_striter(char *s, void (*f)(char *));				X
 void ft_striteri(char *s, void (*f)(unsigned int, char *));		X
-char *ft_strmap(const char *s, char (*f)(char));
+char *ft_strmap(const char *s, char (*f)(char));			X
 char *ft_strmapi(har const *s, char (*f)(unsigned int, char));
 int ft_streq(const char *s1, const char *s2);
 int ft_strneq(const char *s1, const char *s2, size_t n);

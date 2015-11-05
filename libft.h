@@ -37,6 +37,7 @@ char	*ft_strnew(size_t size);
 void	ft_strdel(char **as);
 void	ft_striter(char *s, void(*f)(char *s));
 void	ft_striteri(char *s, void(*f)(unsigned int i, char *s));
+char	*ft_strmap(const char *s, char(*f)(char));
 int	ft_strcmp(const char *s1, const char *s2);
 int	ft_strncmp(const char *s1, const char *s2, size_t n);
 int	ft_atoi(const char *s);
