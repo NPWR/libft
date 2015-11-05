@@ -3,7 +3,7 @@ void *ft_memalloc(size_t size);						X
 void ft_memdel(void **ap);						X
 char *ft_strnew(size_t size);						X
 void ft_strdel(char **as);						X
-void ft_strclr(char *s);
+void ft_strclr(char *s);						X
 void ft_striter(char *s, void (*f)(char *));
 void ft_striteri(char *s, void (*f)(unsigned int, char *));
 char *ft_strmap(const char *s, char (*f)(char));
