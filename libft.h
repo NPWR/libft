@@ -42,6 +42,7 @@ char	*ft_strmapi(const char *s, char(*f)(unsigned int, char));
 int	ft_strcmp(const char *s1, const char *s2);
 int	ft_strncmp(const char *s1, const char *s2, size_t n);
 int	ft_strequ(const char *s1, const char *s2);
+int	ft_strnequ(const char *s1, const char *s2, size_t n);
 int	ft_atoi(const char *s);
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
