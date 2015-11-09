@@ -58,7 +58,7 @@ OBJ = $(SRC:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	ar -rc $(NAME) $^
+	ar -rcs $(NAME) $^
 
 %.o: %.c libft.h
 	$(CC) -c $< $(CFLAGS)
