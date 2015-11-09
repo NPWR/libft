@@ -46,6 +46,7 @@ int	ft_strnequ(const char *s1, const char *s2, size_t n);
 char	*ft_strsub(const char *s, unsigned int strt, size_t len);
 char	*ft_strjoin(const char *s1, const char *s2);
 char	*ft_strtrim(const char *s);
+char	**ft_strsplit(const char *s, char c);
 int	ft_atoi(const char *s);
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);

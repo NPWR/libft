@@ -35,6 +35,7 @@ SRC =  ft_memset.c\
        ft_strsub.c\
        ft_strjoin.c\
        ft_strtrim.c\
+       ft_strsplit.c\
        ft_atoi.c\
        ft_isalpha.c\
        ft_isdigit.c\
