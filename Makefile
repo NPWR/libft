@@ -37,6 +37,7 @@ SRC =  ft_memset.c\
        ft_strtrim.c\
        ft_strsplit.c\
        ft_atoi.c\
+       ft_itoa.c\
        ft_isalpha.c\
        ft_isdigit.c\
        ft_isalnum.c\
