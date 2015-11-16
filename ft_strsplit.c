@@ -44,7 +44,6 @@ char		**ft_strsplit(const char *s, char c)
 	int	word;
 
 	copy = clean(s, c);
-	if (copy == NULL) return (NULL);
 	tab = (char**)malloc(sizeof(char*) * (count_words(copy, c) + 1));
 	if (tab == NULL) return (NULL);
 	word = 0;
@@ -60,6 +59,7 @@ char		**ft_strsplit(const char *s, char c)
 		word++;
 	}
 	tab[word] = (char*)malloc(sizeof(char));
+	if (tab[word] == NULL) return (NULL);
 	tab[word][0] = '\0';
 	return (tab);
 }
