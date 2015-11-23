@@ -6,7 +6,7 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 11:17:47 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 12:00:56 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/23 13:22:50 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ static int	count_words(const char *s, char c)
 {
 	int	n;
 
+	n = 0;
 	while (*s == c)
 		++s;
 	while (*s)
