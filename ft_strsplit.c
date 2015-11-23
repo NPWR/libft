@@ -6,7 +6,7 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 10:56:02 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 10:56:05 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/23 11:09:56 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ static int	wordlen(char *s, char c)
 static char	*clean(const char *s, char c)
 {
 	char	*new;
-	
+
 	new = (char*)s;
 	while (*new == c && *new)
 		new++;
@@ -53,7 +53,7 @@ char		**ft_strsplit(const char *s, char c)
 {
 	char	**tab;
 	char	*copy;
-	int	word;
+	int		word;
 
 	copy = clean(s, c);
 	tab = (char**)malloc(sizeof(char*) * (count_words(copy, c) + 1));

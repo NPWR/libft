@@ -6,7 +6,7 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 10:52:26 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 10:52:29 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/23 11:00:16 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,12 +46,13 @@ static int	magnitude(int n)
 char		*ft_itoa(int n)
 {
 	char	*s;
-	int	pos;
-	int	size;
+	int		pos;
+	int		size;
 
 	size = repr_size(n);
 	s = ft_strnew(size + 1);
-	if (s == NULL) return (NULL);
+	if (s == NULL)
+		return (NULL);
 	pos = 0;
 	if (n < 0)
 	{

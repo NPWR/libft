@@ -6,7 +6,7 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 10:53:28 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 10:53:31 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/23 11:02:14 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putendl_fd(const char *s, int fd)
 {
-	int	i;
+	int		i;
 	char	endl;
 
 	endl = '\n';
