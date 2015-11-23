@@ -6,7 +6,7 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 10:56:09 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 10:56:11 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/23 12:04:57 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,6 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 	if (new == NULL)
 		return (NULL);
 	ft_strncpy(new, s + start, len);
+	new[len] = '\0';
 	return (new);
 }
