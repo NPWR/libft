@@ -6,7 +6,7 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 11:17:47 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 13:22:50 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/24 13:26:31 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,8 +60,6 @@ char		**ft_strsplit(const char *s, char c)
 			++s;
 		++word;
 	}
-	if (!(tab[word] = malloc(sizeof(char))))
-		return (NULL);
-	tab[word][0] = '\0';
+	tab[word] = NULL;
 	return (tab);
 }
