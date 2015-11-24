@@ -6,7 +6,7 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 10:55:41 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 11:04:37 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/24 21:28:23 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_strnequ(const char *s1, const char *s2, size_t n)
 {
 	if ((!*s1 && !*s2) || !n)
 		return (1);
-	if (!*s1 || !*s2)
+	if (!*s1 || !*s2 || *s1 != *s2)
 		return (0);
 	return (ft_strnequ(++s1, ++s2, --n));
 }

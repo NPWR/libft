@@ -6,15 +6,15 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 10:54:35 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 10:54:37 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/24 21:26:55 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strequ(char const *s1, char const *s2)
+int			ft_strequ(char const *s1, char const *s2)
 {
 	if (!*s1 && !*s2)
 		return (1);
-	if (!*s1 || !*s2)
+	if (!*s1 || !*s2 || *s1 != *s2)
 		return (0);
 	return (ft_strequ(++s1, ++s2));
 }
