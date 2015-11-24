@@ -6,7 +6,7 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 10:52:26 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/23 11:00:16 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/24 15:19:35 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ char		*ft_itoa(int n)
 	while (pos < size)
 	{
 		s[pos++] = first_digit(n) + '0';
-		n -= first_digit(n) * magnitude(n) * n < 0 ? -1 : 1;
+		n -= first_digit(n) * magnitude(n) * (n < 0 ? -1 : 1);
 	}
 	return (s);
 }
