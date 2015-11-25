@@ -59,7 +59,8 @@ SRC =  ft_memset.c\
 	   ft_lstdel.c\
 	   ft_lstadd.c\
 	   ft_lstiter.c\
-	   ft_lstmap.c
+	   ft_lstmap.c\
+	   ft_lstpushback.c
 
 OBJ = $(SRC:.c=.o)
 
