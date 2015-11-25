@@ -6,13 +6,13 @@
 /*   By: ebitsch <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 13:47:16 by ebitsch           #+#    #+#             */
-/*   Updated: 2015/11/24 09:52:04 by ebitsch          ###   ########.fr       */
+/*   Updated: 2015/11/25 14:03:07 by ebitsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
+# define ABS(x) (x < 0 ? -x : x)
 # include <string.h>
 
 void	ft_putchar(char c);
